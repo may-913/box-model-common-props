@@ -1,7 +1,7 @@
 /* 
     This is a CSS comment. Please add your name to this file below:
     
-    NAME: 
+    NAME: Meagan Barnhurst
 */
 /* -------------------------------------------------- */
 /* 
@@ -43,20 +43,25 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -264,7 +269,7 @@ p code, li code{
 }
 
 #section4 li::before{
-    content: 
+    content: ;
 }
 
 #section5 p:last-of-type{
@@ -335,6 +340,16 @@ footer{
 */
 /* ADD SELECTOR AND STYLES HERE */
 
+#section2 a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 50%;
+    box-shadow: var(--box-shadow-lg);
+}
+
 /* For the first link in this section: */
 #section2 a:first-of-type{
     background-color: var(--lt-blue);
@@ -377,7 +392,10 @@ footer{
             - left: 60px
 */
 #section2 div > p:last-of-type{
-    
+    background-color: var(--teal-rgba);
+    border: 4px dashed var(--dk-gray-rgba);
+    margin: 16px 60px 32px 8px;
+    padding: 32px 8px 16px 60px;
 }
 
  /* For the div wrapped around that paragraph to show the space its taking up within its container */
@@ -394,7 +412,10 @@ footer{
         - add the small box shadow, using the variable in the root
 */
 #section2 a:first-of-type:hover{
-
+    background-color: var(--dk-blue);
+    color: var(--white);
+    border-color: var(--lt-blue);
+    box-shadow: var(--box-shadow-sm);
 }
 
 #section2 a:last-of-type:hover{
